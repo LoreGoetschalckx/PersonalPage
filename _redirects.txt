@@ -1,7 +1,9 @@
 
 ## This rule redirects to an external API, signing requests with a secret
 [[redirects]]
-  from = "/index.html"
+  from = ""
   to = "https://loregoetschalckx.github.io/"
-  status = 301
+  status = 200
   force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
