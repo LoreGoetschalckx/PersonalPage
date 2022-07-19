@@ -2,6 +2,6 @@
 ## This rule redirects to an external API, signing requests with a secret
 [[redirects]]
   from = ""
-  to = "https://https://loregoetschalckx.github.io/"
+  to = "https://loregoetschalckx.github.io/"
   status = 301
   force = true # COMMENT: ensure that we always redirect
